@@ -19,6 +19,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import me.juanmateus.tallergitgithubapp.ui.theme.TallerGitGitHubAppTheme
@@ -44,6 +45,10 @@ fun GitGithub(){
                 contentDescription = contentDescription, modifier = Modifier
                     .size(120.dp)
                     .clip(CircleShape))
+            Text(text = "Juan David Mateus Poveda",
+                fontWeight = FontWeight.Bold)
+            Text(text = "18 años")
+            Text(text = "Ingeniero de Sistemas")
 
         }
     }
